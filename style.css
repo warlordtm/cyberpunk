@@ -16,7 +16,7 @@ body {
   overflow: hidden;
   color: #fff;
   transition: background 0.3s ease;
-  cursor: none
+  cursor: none;
 }
 
 /* Glowing cursor */
