@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="container">
+    <div class="form-box" id="form-box">
+      <h1 class="title">CYBER<span>PUNK</span></h1>
+
+      <!-- Login Form -->
+      <form id="loginForm" class="form active">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="btn">Login</button>
+        <p class="switch">No account? <a href="#" id="toSignup">Sign Up</a></p>
+      </form>
+
+      <!-- Signup Form -->
+      <form id="signupForm" class="form">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="btn">Sign Up</button>
+        <p class="switch">Have an account? <a href="#" id="toLogin">Login</a></p>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
